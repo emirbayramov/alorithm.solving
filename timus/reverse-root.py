@@ -1,3 +1,4 @@
+#simple solution
 import sys
 n = tuple(map(float, sys.stdin.read().split()[::-1]))
 for i in n:
