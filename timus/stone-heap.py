@@ -9,8 +9,7 @@ m=0
 end = 2**n
 ms=1000000000
 while m<end:
-    i=0
-    a=b=0
+    i=a=b=0
     while i<n:
         if (1<<i) & m:
             a=a+ns[i]
